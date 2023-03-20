@@ -1,0 +1,30 @@
+=============== Sep 4, 2022 (KST) ===============
+14:33:05.274339 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:33:05.281046 db@open opening
+14:33:05.282014 version@stat F·[] S·0B[] Sc·[]
+14:33:05.285240 db@janitor F·2 G·0
+14:33:05.285240 db@open done T·4.1945ms
+14:33:05.320263 db@close closing
+14:33:05.321388 db@close done T·1.1257ms
+=============== Sep 4, 2022 (KST) ===============
+15:01:09.873683 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:01:09.874646 version@stat F·[] S·0B[] Sc·[]
+15:01:09.874646 db@open opening
+15:01:09.874646 journal@recovery F·1
+15:01:09.876654 journal@recovery recovering @1
+15:01:09.880696 memdb@flush created L0@2 N·21 S·1KiB "\f\x81\xa5..\xc5\x0fk,v5":"\x95G\xb2..\bO\t,v6"
+15:01:09.883676 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+15:01:09.902222 db@janitor F·3 G·0
+15:01:09.902222 db@open done T·27.5765ms
+15:34:33.063138 db@close closing
+15:34:33.063717 db@close done T·578.5µs
+=============== Sep 4, 2022 (KST) ===============
+15:35:53.979046 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:35:53.979642 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+15:35:53.979642 db@open opening
+15:35:53.979642 journal@recovery F·1
+15:35:53.981907 journal@recovery recovering @3
+15:35:53.985253 memdb@flush created L0@5 N·21 S·908B "Dat..ion,v24":"unc..own,v34"
+15:35:53.987345 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+15:35:53.997462 db@janitor F·4 G·0
+15:35:53.997462 db@open done T·17.8209ms

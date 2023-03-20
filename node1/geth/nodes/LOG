@@ -1,0 +1,35 @@
+=============== Sep 4, 2022 (KST) ===============
+14:56:42.905505 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:56:42.911383 db@open opening
+14:56:42.912367 version@stat F·[] S·0B[] Sc·[]
+14:56:42.915615 db@janitor F·2 G·0
+14:56:42.915615 db@open done T·3.2487ms
+15:34:35.872445 db@close closing
+15:34:35.872977 db@close done T·532.2µs
+=============== Sep 4, 2022 (KST) ===============
+15:35:35.005998 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:35:35.007030 version@stat F·[] S·0B[] Sc·[]
+15:35:35.007030 db@open opening
+15:35:35.007030 journal@recovery F·1
+15:35:35.007999 journal@recovery recovering @1
+15:35:35.057839 memdb@flush created L0@2 N·22532 S·498KiB "loc..seq,v2":"version,v1"
+15:35:35.058816 version@stat F·[1] S·498KiB[498KiB] Sc·[0.25]
+15:35:35.070069 db@janitor F·3 G·0
+15:35:35.070069 db@open done T·63.0386ms
+15:51:24.759609 db@close closing
+15:51:24.760321 db@close done T·712.1µs
+=============== Sep 4, 2022 (KST) ===============
+15:51:38.142774 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:51:38.143778 version@stat F·[1] S·498KiB[498KiB] Sc·[0.25]
+15:51:38.143778 db@open opening
+15:51:38.143778 journal@recovery F·1
+15:51:38.144778 journal@recovery recovering @3
+15:51:38.163718 memdb@flush created L0@5 N·6756 S·179KiB "loc..seq,v22534":"n:\xfc..ong,v22791"
+15:51:38.165759 version@stat F·[2] S·677KiB[677KiB] Sc·[0.50]
+15:51:38.176643 db@janitor F·4 G·0
+15:51:38.176643 db@open done T·32.8649ms
+15:51:38.196127 table@compaction L0·2 -> L1·0 S·677KiB Q·29291
+15:51:38.213644 table@build created L1@8 N·10969 S·397KiB "loc..seq,v22534":"version,v1"
+15:51:38.213644 version@stat F·[0 1] S·397KiB[0B 397KiB] Sc·[0.00 0.00]
+15:51:38.215889 table@compaction committed F-1 S-280KiB Ke·0 D·18319 T·19.7622ms
+15:51:38.217750 table@remove removed @2
